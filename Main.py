@@ -39,13 +39,6 @@ class PolinomPop:
 
 if __name__ == "__main__":
     Er=list()
-
-   # np.random.uniform(0,1,5)
-   # p = np.poly1d([1,2,3])
-   # p(2)
-   # np.polyfit([1,2,3,4,5,6,7,8,9], [1,4,9,16,25,36,49,66,90], 1)
-   # np.random.choice(list(range(500), size = 5, replace = False ))
-
     P = PolinomPop(1.5,500)
     print(P.Parameters)
     Er.append([P.FitPolys(5)])
